@@ -1,19 +1,6 @@
-*{
-    /* border: 1px solid red; */
-}
-
-.row{
-    background-color: aquamarine;
-}
-
-.row > div{
-    /* background-color: burlywood; */
-}
-
 .test.top.left, .test.top.right{
-    background-color: #641e1e;
-    height: 80px;
-    color: black;
+    background-color: rgb(44, 62, 80);
+    height: 50px;;
 }
 
 .test{
@@ -45,7 +32,12 @@
     background-color: darkgoldenrod;
 }
 
-.row.two .col{
+.row.two div{
     background-color: darkorange;
-    height: 40px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.col-1{
+    height: ;
 }
