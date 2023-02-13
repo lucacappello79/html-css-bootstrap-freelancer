@@ -1,0 +1,51 @@
+*{
+    /* border: 1px solid red; */
+}
+
+.row{
+    background-color: aquamarine;
+}
+
+.row > div{
+    /* background-color: burlywood; */
+}
+
+.test.top.left, .test.top.right{
+    background-color: #641e1e;
+    height: 80px;
+    color: black;
+}
+
+.test{
+  height: 200px;
+  color: white;
+}
+
+.test.one{
+    background-color: rgb(167, 164, 164);
+}
+
+.test.two{
+    background-color: rgb(145, 141, 141);
+}
+
+.test.three{
+    background-color: rgb(85, 84, 84);
+}
+
+.test.four{
+    background-color: rgb(77, 77, 77);
+}
+
+.test.five{
+    background-color: rgb(53, 53, 53);
+}
+
+.row.two{
+    background-color: darkgoldenrod;
+}
+
+.row.two .col{
+    background-color: darkorange;
+    height: 40px;
+}
