@@ -1,107 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- ----- Bootstrap CSS -->
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Bootstrap</title>
 
+    <title>Bootstrap Freelancer</title>
 </head>
 
+
+
 <body>
-    <div class="container text-center">
 
+<!-- inizio navbar -->
+    <nav class="my-nav text-white py-3 text-uppercase fw-bold">
 
-        <div class="row justify-content-around">
-          
-            <div class="col-3">
-                <div class="row">
-                    <div class="col test top left align-items-center">
-                        <div class="d-flex h-100 justify-content-center align-items-center">Start</div>
-                    </div>
-                    <div class="col test top left align-items-center">
-                        <div class="d-flex h-100 justify-content-center align-items-center">Bootstrap</div>
-                    </div>
-                </div>
+        <div class="container d-flex justify-content-between">
+
+            <div class="nav-left">
+                <div class="my-nav-left-text">Start Bootstrap</div>    
             </div>
-
-            <div class="col-3">
-                <div class="row">
-                    <div class="col test top right">
-                        <div class="d-flex h-100 align-items-center justify-content-center">Portfolio</div>
-                    </div>
-                    <div class="col test top right">
-                        <div class="d-flex h-100 align-items-center justify-content-center">About</div>
-                    </div>
-                    <div class="col test top right">
-                        <div class="d-flex h-100 align-items-center justify-content-center">Contact</div>
-                    </div>
-                </div>
+    
+            <div class="nav-right">
+               <ul class="my-nav-right-text d-flex m-0">
+                    <li class="px-3">Portfolio</li>
+                    <li class="px-3">About</li>
+                    <li class="px-3">Contact</li>
+               </ul>
             </div>
-        
+        </div>
+    </nav>
+
+<!-- inizio jumbo -->
+    <div id="jumbo" class="container-fluid my-green-back text-center text-uppercase py-5">
+
+        <div class="my-img-wrapper mb-4 mx-auto">
+            <img src="img/avatar.svg" class="img-fluid" alt="avatar">
         </div>
 
-    </div>
+        <h1>Start Bootstrap</h1>
 
-        <div class="container text-center">
-
-            <div class="row">
-                <div class="col test one">
-                    section 1
-                </div>
+        <div class="my-separator m-3">
+            <div class="mx-auto d-flex justify-content-center align-items-center">
+                <div class="my-sep-left mx-3"></div>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <div class="my-sep-right mx-3"></div>
             </div>
+        </div>
 
-            <div class="row">
-                <div class="col test two">
-                    <h2>PORTFOLIO</h2>
-                    <div class="row two row-cols-3 justify-content-center">
-                        <div class="col-2"></div>
-                        <div class="col-2"></div>
-                        <div class="col-2"></div>
-                    </div>
-                    <div class="row two row-cols-3 justify-content-center">
-                        <div class="col-2"></div>
-                        <div class="col-2"></div>
-                        <div class="col-2"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col test three">
-                    <h2>ABOUT</h2>
-                    <div class="row three gx-3">
-                        <div class="col"></div>
-                        <div class="col"></div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col test four">
-                    section 4
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col test five">
-                    section 5
-                </div>
-            </div>
-
+        <div class="fw-bold">
+            Graphic Artist- Web Designer- Illustrator
         </div>
 
     </div>
 
 
-   
-     <!-- JS Bootstrap Bundle with Popper -->
+    <div id="portfolio" class="container text-center mb-5 mt-5">
+
+        <h2 class="fw-bold text-uppercase">Portfolio</h2>
+
+        <div class="my-separator m-3">
+            -
+        </div>
+
+        <!-- <div class="row text-center">
+            <div class="col-lg-4 col-md-6 col-12">col</div>
+            <div class="col-lg-4 col-md-6 col-12">col</div>
+            <div class="col-lg-4 col-md-6 col-12">col</div>
+            <div class="col-lg-4 col-md-6 col-12">col</div>
+            <div class="col-lg-4 col-md-6 col-12">col</div>
+            <div class="col-lg-4 col-md-6 col-12">col</div>
+        </div> -->
+
+        <div class="row row-cols-lg-3 row-cols-md-2 row-cols-1 text-center g-3">
+
+            <div class="col">
+                <div class="my-col-inner rounded-3">
+                    <!-- forse un overflow hidden su rounded o su img? -->
+                    <img src="img/cabin.png" class="img-fluid" alt="fnf">
+                 </div>
+            </div>
+            <div class="col">
+                <div class="my-col-inner rounded-3">
+                    <img src="img/cake.png" class="img-fluid" alt="fnf">
+                 </div>
+            </div>
+            <div class="col">
+                <div class="my-col-inner rounded-3">
+                    <img src="img/circus.png" class="img-fluid" alt="fnf">
+                 </div>
+            </div>
+            <div class="col">
+                <div class="my-col-inner rounded-3">
+                    <img src="img/game.png" class="img-fluid" alt="fnf">
+                 </div>
+            </div>
+            <div class="col">
+                <div class="my-col-inner rounded-3">
+                    <img src="img/safe.png" class="img-fluid" alt="fnf">
+                 </div>
+            </div>
+            <div class="col">
+                <div class="my-col-inner rounded-3">
+                    <img src="img/submarine.png" class="img-fluid" alt="fnf">
+                 </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    
+    <div id="about" class="my-green-back py-5">
+
+        <div class="container">
+
+            <h2 class="text-center">
+                About
+            </h2>
+    
+            <div class="my-separator text-center">
+                -
+            </div>
+    
+            <div class="px-5">
+                <div class="row">
+                    <div class="col-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni velit fugit hic consequuntur, odit aliquid odio eius illo eum molestiae adipisci quo illum veritatis fuga. Repellat delectus voluptatem ipsam cumque? </div>
+                    <div class="col-6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, numquam aspernatur harum ipsam sint error quaerat consectetur sapiente non quisquam, doloribus mollitia voluptates. Mollitia sint officiis similique perferendis eaque. Nesciunt. </div>
+                </div>
+            </div>
+
+            <div class="text-center py-5">
+                <button type="button" class="btn btn-outline-light">Light</button>
+            </div>
+    
+
+        </div>
+
+
+
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
+
+
 </html>
