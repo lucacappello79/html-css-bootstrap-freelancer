@@ -1,4 +1,4 @@
-.my-nav{
+.my-nav, .my-footer{
     background-color: rgb(42, 58, 74);
 }
 
@@ -15,20 +15,7 @@
     max-width: 250px;
 }
 
-#jumbo .my-divider-left, #jumbo .my-divider-right{
-    max-width: 100px;
-    width: 100%;
-    height: 3px;
-    background-color: rgb(255, 255, 255);
-}
-
-#portfolio .my-divider-left, #portfolio .my-divider-right{
-    max-width: 100px;
-    width: 100%;
-    height: 3px;
-    background-color: rgb(0, 0, 0);
-}
-
+#jumbo .my-divider-left, #jumbo .my-divider-right,
 #about .my-divider-left, #about .my-divider-right{
     max-width: 100px;
     width: 100%;
@@ -36,9 +23,24 @@
     background-color: rgb(255, 255, 255);
 }
 
+#portfolio .my-divider-left, #portfolio .my-divider-right,
 #contacts .my-divider-left, #contacts .my-divider-right{
     max-width: 100px;
     width: 100%;
     height: 3px;
     background-color: rgb(0, 0, 0);
 }
+
+/* #about .my-divider-left, #about .my-divider-right{
+    max-width: 100px;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+} */
+
+/* #contacts .my-divider-left, #contacts .my-divider-right{
+    max-width: 100px;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+} */
